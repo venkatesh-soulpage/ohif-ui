@@ -5,6 +5,9 @@ body {
   font-family: "Poppins";
   background-color: #000000;
 }
+button:focus {
+  outline: none;
+}
 .nav-link,
 .nav-link:hover {
   color: inherit;
