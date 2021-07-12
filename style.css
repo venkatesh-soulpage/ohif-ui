@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  background-color: #000000;
+}
+.nav-link,
+.nav-link:hover {
+  color: inherit;
+}
+.main-section {
+  max-height: 91vh;
+}
+.main-section section {
+  min-height: 90vh;
+}
+
+#left-panel nav .nav,
+#right-panel nav .nav {
+  border: none;
+}
+
+#left-panel .tab-content {
+  max-height: 85vh;
+  overflow-y: scroll;
+  padding: 10px;
+}
+.panel-buttons {
+  width: 20%;
+  padding: 5px;
+  border: none;
+  background: rgba(128, 129, 145, 0.2);
+  color: #6c757d;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.panel-buttons.active {
+  color: #ff974a;
+  background: rgba(255, 151, 74, 0.2);
+}
+
+.active-problems {
+  font-size: 14px;
+  border: none;
+  background: rgba(128, 129, 145, 0.2);
+  color: #44444f;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.additional-info {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.additional-info .header {
+  color: #808191;
+}
+
+.additional-info .content,
+.ionic-content .info {
+  font-size: 14px;
+  background: rgba(128, 129, 145, 0.2);
+  color: #44444f;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.panel-cards {
+  background-color: #000000;
+  border: 2px solid #212324;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.panel-cards .images {
+  display: flex;
+  align-items: center;
+}
+.panel-cards .images img {
+  padding: 20px;
+}
+.panel-cards .images .info {
+  padding: 5px;
+  color: #808191;
+  display: grid;
+}
+
+.panel-cards .patient-header {
+  border-bottom: 2px solid #212324;
+}
+
+.patient table,
+.visits table {
+  color: #808191;
+}
+
+.study-content,
+.ionic-content {
+  flex-direction: column;
+  display: flex;
+  color: #808191;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.study-content .info {
+  color: #44444f;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #16191b;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: -95px;
+  }
+}

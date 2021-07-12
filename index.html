@@ -1,0 +1,481 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>OHIF</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg px-5">
+      <a class="navbar-brand" href="#"><img src="/assets/Logo.png" /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-secondary align-items-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TASKS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CALENDAR</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <img
+                src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg"
+                width="40"
+                height="40"
+                class="rounded"
+                alt="user"
+              />
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row m-0 p-2 main-section">
+      <aside class="col-lg-3 collapse show" id="left-panel">
+        <nav class="p-2">
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button
+              data-toggle="tab"
+              href="#nav-image"
+              role="tab"
+              class="panel-buttons active"
+            >
+              <span>Images</span>
+            </button>
+            <button
+              data-toggle="tab"
+              href="#nav-patient"
+              role="tab"
+              class="panel-buttons"
+            >
+              <span>Patient</span>
+            </button>
+            <button
+              data-toggle="tab"
+              href="#nav-study"
+              role="tab"
+              class="panel-buttons"
+            >
+              <span>Study</span>
+            </button>
+          </div>
+        </nav>
+        <div class="tab-content">
+          <div class="tab-pane show active" id="nav-image" role="tabpanel">
+            <!-- 
+                
+                *****************************
+                
+                Images Content 
+
+                *****************************            
+            
+            -->
+            <div class="card panel-cards">
+              <div class="card-body images">
+                <img src="assets/scan.png" />
+
+                <div class="info">
+                  <span>Localiser</span>
+                  <span> #2-38 Images </span>
+                </div>
+              </div>
+            </div>
+            <div class="card panel-cards">
+              <div class="card-body images">
+                <img src="assets/scan.png" />
+
+                <div class="info">
+                  <span>Axial Fiesta</span>
+                  <span> #2-38 Images </span>
+                </div>
+              </div>
+            </div>
+            <div class="card panel-cards">
+              <div class="card-body images">
+                <img src="assets/scan.png" />
+
+                <div class="info">
+                  <span>Long Axis Cine FIESTA</span>
+                  <span> #2-38 Images </span>
+                </div>
+              </div>
+            </div>
+            <div class="card panel-cards">
+              <div class="card-body images">
+                <img src="assets/scan.png" />
+
+                <div class="info">
+                  <span>RVOT Cine FIESTA</span>
+                  <span> #2-38 Images </span>
+                </div>
+              </div>
+            </div>
+            <div class="card panel-cards">
+              <div class="card-body images">
+                <img src="assets/scan.png" />
+
+                <div class="info">
+                  <span>Short Axis Cine FIESTA</span>
+                  <span> #2-38 Images </span>
+                </div>
+              </div>
+            </div>
+            <div class="card panel-cards">
+              <div class="card-body images">
+                <img src="assets/scan.png" />
+
+                <div class="info">
+                  <span>Localiser</span>
+                  <span> #2-38 Images </span>
+                </div>
+              </div>
+            </div>
+            <!-- 
+                
+                *****************************
+                
+                Images Content 
+
+                *****************************            
+            
+            -->
+          </div>
+          <div
+            class="tab-pane"
+            id="nav-patient"
+            role="tabpanel"
+            aria-labelledby="nav-patient-tab"
+          >
+            <!-- 
+                
+                *****************************
+                
+                Patient Content 
+
+                *****************************            
+            
+            -->
+            <h5 class="text-white p-2">Venkatesh</h5>
+            <div class="card panel-cards">
+              <div class="card-header patient-header">
+                <div class="d-flex justify-content-between">
+                  <span class="text-white">Active Problems</span>
+                  <img src="assets/menu.png" />
+                </div>
+              </div>
+              <div class="card-body patient-data">
+                <div class="problems">
+                  <button class="active-problems">Head Ache</button>
+                  <button class="active-problems">Fever</button>
+                  <button class="active-problems">Stomach Pain</button>
+                  <button class="active-problems">Joint Pain</button>
+                  <button class="active-problems">Neck Pain</button>
+                </div>
+                <div class="additional-info">
+                  <span class="header">Additional Information</span>
+                  <p class="content">
+                    Fever from last 4 days and mild headache with regular joint
+                    pains.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card panel-cards">
+              <div class="card-header patient-header">
+                <div class="d-flex justify-content-between">
+                  <span class="text-white">Allergies</span>
+                  <img src="assets/menu.png" />
+                </div>
+              </div>
+              <div class="card-body patient p-0">
+                <table class="table table-borderless">
+                  <thead class="patient-header">
+                    <tr>
+                      <th scope="col">Allergy</th>
+                      <th scope="col">Reaction</th>
+                      <th scope="col">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Saw Dust Allergy</td>
+                      <td>Breath</td>
+                      <td>Active</td>
+                    </tr>
+                    <tr>
+                      <td>Pencilin</td>
+                      <td>Hives</td>
+                      <td>Active</td>
+                    </tr>
+                    <tr>
+                      <td>Non drug</td>
+                      <td>Itching</td>
+                      <td>Active</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- 
+                
+                *****************************
+                
+                Patient Content 
+
+                *****************************            
+            
+            --></div>
+            <div class="card panel-cards">
+              <div class="card-header patient-header">
+                <div class="d-flex justify-content-between">
+                  <span class="text-white">Visits</span>
+                  <img src="assets/menu.png" />
+                </div>
+              </div>
+              <div class="card-body visits p-0">
+                <table class="table table-borderless">
+                  <thead class="patient-header">
+                    <tr>
+                      <th scope="col">Problem</th>
+                      <th scope="col">Date</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Abdominal Pain</td>
+                      <td>16 Feb-21</td>
+                    </tr>
+                    <tr>
+                      <td>Cold, Fungal infection</td>
+                      <td>21 Jan-21</td>
+                    </tr>
+                    <tr>
+                      <td>Diabetes mellitus T2</td>
+                      <td>31 Jan-21</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane"
+            id="nav-study"
+            role="tabpanel"
+            aria-labelledby="nav-study-tab"
+          >
+            <h5 class="text-white p-2">Venkatesh</h5>
+            <div class="p-2">
+              <div class="study-content">
+                <span class="header">Study ID:</span>
+                <span class="info">-</span>
+              </div>
+              <div class="study-content">
+                <span class="header">Institution Name:</span>
+                <span class="info">-</span>
+              </div>
+              <div class="study-content">
+                <span class="header">Station Name</span>
+                <span class="info">-</span>
+              </div>
+              <div class="study-content">
+                <span class="header">Study Description:</span>
+                <span class="info">Cardiac MRI - VF</span>
+              </div>
+              <div class="study-content">
+                <span class="header">Series Description:</span>
+                <span class="info">Short Axis Stack Cine FIESTA</span>
+              </div>
+              <div class="study-content">
+                <span class="header">Referring Physician:</span>
+                <span class="info">-</span>
+              </div>
+              <div class="study-content">
+                <span class="header">Manufacturer:</span>
+                <span class="info">GE Medical Systems</span>
+              </div>
+              <div class="study-content">
+                <span class="header">Field Strength:</span>
+                <span class="info">1.5T</span>
+              </div>
+            </div>
+            <h5 class="text-white p-2">Ionic Information</h5>
+            <div class="p-2">
+              <div class="ionic-content">
+                <span class="header">Ionic Code</span>
+                <span class="info">5792-7</span>
+              </div>
+              <div class="ionic-content">
+                <span class="header">Description</span>
+                <span class="info"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore.</span
+                >
+              </div>
+              <div class="ionic-content">
+                <span class="header">Doctor Comments</span>
+                <span class="info"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua.</span
+                >
+              </div>
+              <div class="ionic-content">
+                <span class="header">Oder Status</span>
+                <span class="info">On Progress</span>
+              </div>
+              <div class="ionic-content">
+                <span class="header">Scanned in Result</span>
+                <span class="info">PDF Format</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <section class="col border rounded border-secondary">
+        <span
+          class="text-secondary"
+          data-toggle="collapse"
+          data-target="#left-panel"
+          >Toggle left-panel</span
+        >
+        <span
+          class="text-secondary float-right"
+          data-toggle="collapse"
+          data-target="#right-panel"
+          aria-expanded="true"
+          >Toggle right-panel</span
+        >
+      </section>
+      <aside class="col-lg-3 collapse show" id="right-panel">
+        <nav class="">
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button
+              data-toggle="tab"
+              href="#nav-actions"
+              role="tab"
+              class="panel-buttons active"
+            >
+              <span>Actions</span>
+            </button>
+            <button
+              data-toggle="tab"
+              href="#nav-library"
+              role="tab"
+              class="panel-buttons"
+            >
+              <span>library</span>
+            </button>
+            <button
+              data-toggle="tab"
+              href="#nav-canvas"
+              role="tab"
+              class="panel-buttons"
+            >
+              <span>canvas</span>
+            </button>
+            <button
+              data-toggle="tab"
+              href="#nav-report"
+              role="tab"
+              class="panel-buttons"
+            >
+              <span>report</span>
+            </button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane show active"
+            id="nav-actions"
+            role="tabpanel"
+            aria-labelledby="nav-actions-tab"
+          >
+            Actions
+          </div>
+          <div
+            class="tab-pane"
+            id="nav-library"
+            role="tabpanel"
+            aria-labelledby="nav-library-tab"
+          >
+            library
+          </div>
+          <div
+            class="tab-pane"
+            id="nav-canvas"
+            role="tabpanel"
+            aria-labelledby="nav-canvas-tab"
+          >
+            canvas
+          </div>
+          <div
+            class="tab-pane"
+            id="nav-report"
+            role="tabpanel"
+            aria-labelledby="nav-report-tab"
+          >
+            report
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
