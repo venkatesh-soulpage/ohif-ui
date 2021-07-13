@@ -10,6 +10,9 @@ select {
   color: white;
 }
 
+button:focus {
+  outline: none;
+}
 .nav-link,
 .nav-link:hover {
   color: inherit;
