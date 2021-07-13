@@ -500,7 +500,7 @@
                 </div>
               </div>
               <div class="card">
-                <div class="card-header" id="headingTwo">
+                <div class="card-header">
                   <div
                     data-toggle="collapse"
                     data-target="#roi-measure"
@@ -538,7 +538,7 @@
                 </div>
               </div>
               <div class="card">
-                <div class="card-header" id="headingThree">
+                <div class="card-header">
                   <div
                     data-toggle="collapse"
                     data-target="#volume-measure"
@@ -784,7 +784,7 @@
             <h5 class="panel-title my-4">Display</h5>
             <div class="accordion action-measurements" id="library-display">
               <div class="card">
-                <div class="card-header" id="headingThree">
+                <div class="card-header">
                   <div
                     data-toggle="collapse"
                     data-target="#display-series"
@@ -952,7 +952,178 @@
             role="tabpanel"
             aria-labelledby="nav-report-tab"
           >
-            report
+            <div class="d-flex justify-content-around my-4">
+              <button type="button" class="btn btn-outline-home">
+                Publish
+              </button>
+              <button type="button" class="btn btn-outline-home">
+                Preview
+              </button>
+              <button type="button" class="btn btn-outline-home">
+                Templates
+              </button>
+            </div>
+            <div class="accordion action-measurements mt-3" id="reports">
+              <div class="card">
+                <div class="card-header">
+                  <div
+                    class="measurement-header"
+                    data-toggle="collapse"
+                    data-target="#general-information"
+                  >
+                    <span class="panel-title">General Information</span>
+                    <div class="custom-control custom-switch">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="report-switch"
+                        checked
+                      />
+                      <label
+                        class="custom-control-label"
+                        for="report-switch"
+                      ></label>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  id="general-information"
+                  class="collapse show"
+                  data-parent="#reports"
+                >
+                  <div class="card-body">
+                    <div>
+                      <div class="d-flex justify-content-between my-3">
+                        <span class="panel-title">Patient Information</span>
+                        <div class="custom-control custom-switch">
+                          <input
+                            type="checkbox"
+                            class="custom-control-input"
+                            id="patient-report"
+                            checked
+                          />
+                          <label
+                            class="custom-control-label"
+                            for="patient-report"
+                          ></label>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-between my-3">
+                        <span class="panel-title">Study Information</span>
+                        <div class="custom-control custom-switch">
+                          <input
+                            type="checkbox"
+                            class="custom-control-input"
+                            id="study-report"
+                            checked
+                          />
+                          <label
+                            class="custom-control-label"
+                            for="study-report"
+                          ></label>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-between my-3">
+                        <span class="panel-title">Notes</span>
+                        <div class="custom-control custom-switch">
+                          <input
+                            type="checkbox"
+                            class="custom-control-input"
+                            id="notes-report"
+                            checked
+                          />
+                          <label
+                            class="custom-control-label"
+                            for="notes-report"
+                          ></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <div
+                    data-toggle="collapse"
+                    data-target="#ventricular-function"
+                    class="measurement-header"
+                  >
+                    <span class="panel-title">Ventricular Function</span>
+                    <div class="custom-control custom-switch">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="ventricular-switch"
+                        checked
+                      />
+                      <label
+                        class="custom-control-label"
+                        for="ventricular-switch"
+                      ></label>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="ventricular-function"
+                  class="collapse"
+                  data-parent="#reports"
+                >
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch. Food truck
+                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                    sunt aliqua put a bird on it squid single-origin coffee
+                    nulla assumenda shoreditch et. Nihil anim keffiyeh
+                    helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                    Leggings occaecat craft beer farm-to-table, raw denim
+                    aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <div
+                    data-toggle="collapse"
+                    data-target="#screenshots"
+                    class="measurement-header"
+                  >
+                    <span class="panel-title">Screenshots</span>
+                    <div class="custom-control custom-switch">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="screenshot-switch"
+                        checked
+                      />
+                      <label
+                        class="custom-control-label"
+                        for="screenshot-switch"
+                      ></label>
+                    </div>
+                  </div>
+                </div>
+                <div id="screenshots" class="collapse" data-parent="#reports">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch. Food truck
+                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                    sunt aliqua put a bird on it squid single-origin coffee
+                    nulla assumenda shoreditch et. Nihil anim keffiyeh
+                    helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                    Leggings occaecat craft beer farm-to-table, raw denim
+                    aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </aside>

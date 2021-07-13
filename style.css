@@ -13,6 +13,13 @@ select {
 button:focus {
   outline: none;
 }
+.btn-outline-home {
+  border: 1px solid #ff974a !important;
+  color: #ff974a;
+}
+.btn-outline-home:hover {
+  color: #ff974a;
+}
 .nav-link,
 .nav-link:hover {
   color: inherit;
@@ -166,13 +173,18 @@ button:focus {
   border-top: 2px solid;
 }
 
-#organ-info .card {
+#organ-info .card,
+#reports .card {
   border: none;
 }
 
 #organ-info .card-body {
   display: flex;
   justify-content: space-between;
+  background-color: black;
+  border: none;
+}
+#reports .card-body {
   background-color: black;
   border: none;
 }
